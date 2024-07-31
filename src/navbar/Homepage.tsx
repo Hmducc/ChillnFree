@@ -9,7 +9,7 @@ const Homepage: React.FC = () => {
       <div>
         <img src={home}></img>
       </div>
-      <div className="new ">
+      <div className="new">
         <div className="newitem ">
           <h1 className="barlow2 text1 text-main  ">SẢN PHẨM MỚI</h1>
         </div>
