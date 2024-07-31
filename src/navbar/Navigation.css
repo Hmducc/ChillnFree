@@ -1,0 +1,114 @@
+@font-face {
+  font-family: barlow1;
+  src: url(../assets/BarlowCondensed-Medium.ttf);
+}
+.barlow1 {
+  font-family: barlow1;
+}
+
+.home {
+  height: 1024px;
+}
+.nav-container {
+  display: flex;
+  justify-content: center;
+
+  background-color: #fff;
+  padding: 10px;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab {
+  cursor: pointer;
+  margin: 35px 50px; /* Adjust this value to increase/decrease the spacing between tabs */
+  font-size: 22px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.leftside {
+  width: 182px;
+  height: 22px;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 15px;
+  left: 0px;
+  align-items: center;
+  display: flex;
+}
+.place {
+  height: 14px;
+  width: 14px;
+}
+.vietnam {
+  margin-left: 6px;
+}
+.phone {
+  height: 14px;
+  width: 14px;
+  margin-left: 12px;
+}
+.number {
+  margin-left: 6px;
+}
+.rightside {
+  width: 182px;
+  height: 22px;
+  position: absolute;
+  margin-top: 8px;
+  margin-right: 2px;
+  right: 0px;
+  align-items: center;
+  display: flex;
+}
+.user {
+  height: 14px;
+  width: 14px;
+}
+.taikhoan {
+  margin-left: 6px;
+}
+.cart {
+  height: 14px;
+  width: 14px;
+  margin-left: 12px;
+}
+.giohang {
+  margin-left: 6px;
+}
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  /* Adjust the gap between columns as needed */
+}
+
+.column {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.editable-content {
+  min-height: 200px; /* Set a minimum height for the content */
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

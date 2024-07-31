@@ -10,8 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@fluentui/react-components": "^9.54.7",
+    "@fluentui/react-icons": "^2.0.252",
+    "@headlessui/react": "^2.1.2",
+    "@heroicons/react": "^2.1.5",
+    "@types/styled-components": "^5.1.34",
+    "antd": "^5.19.4",
+    "framer-motion": "^11.3.19",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.12",
+    "swiper": "^11.1.8"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

@@ -1,0 +1,55 @@
+@font-face {
+  font-family: barlow1;
+  src: url(../assets/BarlowCondensed-Medium.ttf);
+}
+.barlow1 {
+  font-family: barlow1;
+}
+
+@font-face {
+  font-family: barlow2;
+  src: url(../assets/BarlowSemiCondensed-SemiBold.ttf);
+}
+.barlow2 {
+  font-family: barlow2;
+}
+@font-face {
+  font-family: barlow3;
+  src: url(../assets/BarlowSemiCondensed-Medium.ttf);
+}
+.barlow3 {
+  font-family: barlow3;
+}
+
+.homepage {
+  padding-top: 100px;
+}
+.new {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.newitem {
+  width: 300px;
+  height: 42px;
+  margin-left: 57px;
+  position: relative;
+  top: 36px;
+}
+.text1 {
+  font-size: 35px;
+}
+.productline {
+  margin-top: 75px;
+}
+.product {
+  position: relative;
+
+  align-items: center;
+  justify-content: center;
+}
+.image1 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../assets/store1.png);
+}

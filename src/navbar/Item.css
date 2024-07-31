@@ -1,0 +1,71 @@
+@font-face {
+  font-family: barlow1;
+  src: url(../assets/BarlowCondensed-Medium.ttf);
+}
+.barlow1 {
+  font-family: barlow1;
+}
+
+@font-face {
+  font-family: barlow2;
+  src: url(../assets/BarlowSemiCondensed-SemiBold.ttf);
+}
+.barlow2 {
+  font-family: barlow2;
+}
+@font-face {
+  font-family: barlow3;
+  src: url(../assets/BarlowSemiCondensed-Medium.ttf);
+}
+.barlow3 {
+  font-family: barlow3;
+}
+
+.item-card {
+  width: 350px;
+  height: 350px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+}
+
+.item-image {
+  width: 450px;
+  height: 268px;
+  object-fit: cover;
+}
+
+.item-details {
+  padding: 10px;
+}
+
+.item-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.item-price {
+  font-size: 18px;
+  color: #000;
+  margin: 0;
+}
+.blacknew {
+  width: 75px;
+  height: 21px;
+  position: absolute;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  left: 3px;
+  top: 2px;
+  text-align: center;
+}
+.newfont {
+  font-size: 14px;
+}
