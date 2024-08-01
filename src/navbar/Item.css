@@ -24,7 +24,7 @@
 .item-card {
   width: 350px;
   height: 350px;
-
+  position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -32,6 +32,8 @@
   align-items: center;
   text-align: center;
   background-color: #fff;
+  text-decoration: none;
+  color: inherit;
 }
 
 .item-image {
@@ -48,6 +50,10 @@
   font-size: 20px;
   font-weight: bold;
   margin: 0;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .item-price {

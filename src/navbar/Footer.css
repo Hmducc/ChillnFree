@@ -32,6 +32,7 @@
   display: flex;
   justify-content: space-between;
   height: 250px;
+  bottom: 30px;
 }
 
 .footer-column {

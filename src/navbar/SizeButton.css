@@ -1,0 +1,27 @@
+.size-selector {
+  display: flex;
+  gap: 10px;
+}
+
+.size-button {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 25px;
+  width: 73px;
+  height: 48px;
+  justify-content: center;
+  text-align: center;
+}
+
+.size-button:hover {
+  background-color: #e0e0e0;
+}
+
+.size-button.selected {
+  background-color: #ea1b25;
+  color: white;
+}

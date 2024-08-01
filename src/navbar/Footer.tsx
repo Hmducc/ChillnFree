@@ -1,4 +1,3 @@
-// src/components/Footer.tsx
 import React from "react";
 import "./Footer.css";
 import logo from "../assets/chillnfree.png";

@@ -1,41 +1,32 @@
 import home from "../assets/homepage.jpg";
 import "./Homepage.css";
 import Item from "./Item";
-import gam from "../assets/gam.png";
+
+import { items } from "./items";
 
 const Homepage: React.FC = () => {
+  const displayedItems = items.slice(0, 4);
+  const displayedItems2 = items.slice(5, 9);
   return (
     <div className="homepage">
       <div>
         <img src={home}></img>
       </div>
-      <div className="new">
+      <div className="new ">
         <div className="newitem ">
           <h1 className="barlow2 text1 text-main  ">SẢN PHẨM MỚI</h1>
         </div>
         <div className="productline">
-          <div className="product" style={{ display: "flex", gap: "0px" }}>
-            <Item
-              image={gam}
-              name="FOOTBALL JERSEY MIXER x G..."
-              price="550.000 VND"
-            />
-            <Item
-              image={gam}
-              name="FOOTBALL JERSEY MIXER x G..."
-              price="550.000 VND"
-            />
-            <Item
-              image={gam}
-              name="FOOTBALL JERSEY MIXER x G..."
-              price="550.000 VND"
-            />
-            <Item
-              image={gam}
-              name="FOOTBALL JERSEY MIXER x G..."
-              price="550.000 VND"
-            />
-            {/* Add more ItemCard components here */}
+          <div className="product">
+            {displayedItems.map((item) => (
+              <Item
+                key={item.id}
+                image={item.image}
+                name={item.name}
+                price={item.price}
+                id={item.id}
+              />
+            ))}
           </div>
         </div>
       </div>
@@ -45,28 +36,16 @@ const Homepage: React.FC = () => {
           <h1 className="barlow2 text1 text-main  ">SẢN PHẨM BÁN CHẠY</h1>
         </div>
         <div className="productline">
-          <div className="product" style={{ display: "flex", gap: "0px" }}>
-            <Item
-              image={gam}
-              name="FOOTBALL JERSEY MIXER x G..."
-              price="550.000 VND"
-            />
-            <Item
-              image={gam}
-              name="FOOTBALL JERSEY MIXER x G..."
-              price="550.000 VND"
-            />
-            <Item
-              image={gam}
-              name="FOOTBALL JERSEY MIXER x G..."
-              price="550.000 VND"
-            />
-            <Item
-              image={gam}
-              name="FOOTBALL JERSEY MIXER x G..."
-              price="550.000 VND"
-            />
-            {/* Add more ItemCard components here */}
+          <div className="product">
+            {displayedItems2.map((item) => (
+              <Item
+                key={item.id}
+                image={item.image}
+                name={item.name}
+                price={item.price}
+                id={item.id}
+              />
+            ))}
           </div>
         </div>
       </div>

@@ -41,12 +41,16 @@
 }
 .productline {
   margin-top: 75px;
+  display: flex;
+  justify-content: center;
 }
 .product {
   position: relative;
-
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  gap: 20px;
   align-items: center;
   justify-content: center;
+  display: grid;
 }
 .image1 {
   width: 100%;
