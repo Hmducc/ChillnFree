@@ -79,13 +79,28 @@
 .product-select {
   margin-top: 68px;
   margin-left: 60px;
+  display: flex;
+  gap: 10px;
 }
 
 .product-arrange {
-  margin-left: 900px;
+  text-align: right;
 }
 .page {
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 80px;
+}
+.product-pick {
+  width: 100%;
+}
+.product-select-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-arrange-container {
+  margin-left: auto;
+  margin-top: 68px;
+  margin-right: 60px;
 }
