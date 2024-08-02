@@ -18,7 +18,7 @@ const Details: React.FC = () => {
   const displayedItems = items.slice(10, 14);
   const navigate = useNavigate();
   const handleBuyNow = () => {
-    navigate("/cart"); // Navigate to the cart screen
+    navigate("/cart");
   };
 
   return (

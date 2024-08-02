@@ -41,6 +41,13 @@
 .barlow6 {
   font-family: barlow6;
 }
+@font-face {
+  font-family: barlow7;
+  src: url(../assets/BarlowSemiCondensed-Regular.ttf);
+}
+.barlow7 {
+  font-family: barlow7;
+}
 
 .details-container {
   display: flex;
