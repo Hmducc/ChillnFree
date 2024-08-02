@@ -1,9 +1,9 @@
-import React from "react";
-import "./Login.css";
-import logo from "../assets/chillnfree.png";
 import { Input } from "antd";
-import left from "../assets/left.png";
+import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import logo from "../assets/chillnfree.png";
+import left from "../assets/left.png";
+import "./Login.css";
 
 const Login: React.FC = () => {
   const navigate = useNavigate();
