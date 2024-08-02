@@ -1,8 +1,8 @@
 @font-face {
   font-family: login1;
-  src: url(../assets/Quicksand-VariableFont_wght.ttf)
+  src: url(../assets/Quicksand-VariableFont_wght.ttf);
 }
-.login23 {
+.login1 {
   font-family: login1;
 }
 
@@ -78,7 +78,7 @@
 .logintext {
   color: #666666;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 600;
 }
 .login {
   width: 459px;
@@ -94,7 +94,7 @@
   font-size: 32px;
   margin-bottom: 20px;
   text-align: left;
-  font-weight: 400;
+  font-weight: 600;
 }
 .tick {
   display: flex;
@@ -124,12 +124,12 @@
 
   font-size: 15px;
   display: inline-block;
-  font-weight: 300;
+  font-weight: 600;
 }
 .signup-link {
   text-decoration: underline;
   margin-left: 5px;
-  font-weight: 300;
+  font-weight: 600;
 }
 .captcha {
   width: 350px;
@@ -138,7 +138,7 @@
   font-size: 15px;
   color: #000;
   text-decoration: underline;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .signup-link:hover {
@@ -182,7 +182,7 @@
   border-radius: 32px;
   font-size: 17px;
   cursor: pointer;
-  font-weight: 300;
+  font-weight: 600;
 }
 .login-guide {
   font-weight: 400;
