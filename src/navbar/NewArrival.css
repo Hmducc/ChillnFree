@@ -1,0 +1,165 @@
+@font-face {
+  font-family: barlow1;
+  src: url(../assets/BarlowCondensed-Medium.ttf);
+}
+.barlow1 {
+  font-family: barlow1;
+}
+
+@font-face {
+  font-family: barlow2;
+  src: url(../assets/BarlowSemiCondensed-SemiBold.ttf);
+}
+.barlow2 {
+  font-family: barlow2;
+}
+@font-face {
+  font-family: barlow3;
+  src: url(../assets/BarlowSemiCondensed-Medium.ttf);
+}
+.barlow3 {
+  font-family: barlow3;
+}
+@font-face {
+  font-family: barlow4;
+  src: url(../assets/BarlowCondensed-Regular.ttf);
+}
+.barlow4 {
+  font-family: barlow4;
+}
+.window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.window-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 10px; /* Adjust the gap between panes as needed */
+  width: 1500px;
+  height: 80vh; /* Adjust the height as needed */
+}
+.window-container2 {
+  display: grid;
+  width: 1500px;
+  height: 90vh; /* Adjust the height as needed */
+}
+
+.window1 {
+  grid-column: span 2;
+  background-color: #f0f0f0; /* Adjust the background color as needed */
+  border: 1px solid #ccc; /* Adjust the border as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Adjust the font size as needed */
+  height: 500px;
+  background-image: url(../assets/heading.png);
+  background-size: cover;
+}
+.window2 {
+  background-color: #f0f0f0; /* Adjust the background color as needed */
+  border: 1px solid #ccc; /* Adjust the border as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Adjust the font size as needed */
+  background-image: url(../assets/new3.jpg);
+  background-size: contain;
+}
+.window3 {
+  background-color: #f0f0f0; /* Adjust the background color as needed */
+  border: 1px solid #ccc; /* Adjust the border as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Adjust the font size as needed */
+  background-image: url(../assets/new2.jpg);
+  background-size: contain;
+}
+.window4 {
+  background-color: #f0f0f0; /* Adjust the background color as needed */
+  border: 1px solid #ccc; /* Adjust the border as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+.product-page {
+  padding-top: 100px;
+}
+.product-new {
+  width: 100%;
+  height: 2200px;
+  position: relative;
+}
+.product-new1 {
+  width: 100%;
+  height: 410px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.product-newitem {
+  width: 300px;
+  height: 42px;
+  margin-left: 57px;
+  position: relative;
+  top: 36px;
+}
+.product-text1 {
+  font-size: 35px;
+}
+.product-line {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.product {
+  position: relative;
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+.product-image1 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../assets/store1.png);
+}
+.product-line1 {
+  margin-top: 45px;
+}
+.product-select {
+  margin-top: 68px;
+  margin-left: 60px;
+  display: flex;
+  gap: 10px;
+}
+
+.product-arrange {
+  text-align: right;
+}
+.page {
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.product-pick {
+  width: 100%;
+}
+.product-select-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-arrange-container {
+  margin-left: auto;
+  margin-top: 68px;
+  margin-right: 60px;
+}

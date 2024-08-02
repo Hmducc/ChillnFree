@@ -47,13 +47,13 @@
 }
 
 .item-name {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0;
-  max-width: 200px;
+  display: block; /* Ensure it behaves like a block element */
+  width: 200px;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .item-price {

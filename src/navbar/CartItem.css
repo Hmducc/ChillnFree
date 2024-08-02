@@ -1,0 +1,30 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #e8e8e8;
+  height: 180px;
+  background-color: white;
+}
+
+.cart-item-image {
+  width: 126px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.cart-item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-name-details {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cart-item-size-details {
+  font-size: 16px;
+
+  margin-top: 10px;
+}

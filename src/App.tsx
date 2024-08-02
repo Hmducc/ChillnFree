@@ -1,5 +1,10 @@
 import React from "react";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import {
+  Route,
+  BrowserRouter as Router,
+  Routes,
+  useLocation,
+} from "react-router-dom";
 import Contact from "./navbar/Contact";
 import Navigation from "./navbar/Navigation";
 import Product from "./navbar/Product";
@@ -9,26 +14,41 @@ import Footer from "./navbar/Footer";
 import Details from "./navbar/Details";
 import ScrollToTop from "./ScrollToTop";
 import Cart from "./navbar/Cart";
+import Login from "./navbar/Login";
+import SignUp from "./navbar/SignUp";
 
 const App: React.FC = () => {
   return (
     <Router>
-      <div>
-        <ScrollToTop>
-          <Navigation />
-          <Routes>
-            <Route path="/home" element={<Homepage />} />
-            <Route path="/product" element={<Product />} />
-            <Route path="/arrival" element={<NewArrival />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/details/:id" element={<Details />} />
-            <Route path="/" element={<Homepage />} />
-          </Routes>
-          <Footer></Footer>
-        </ScrollToTop>
-      </div>
+      <ScrollToTop>
+        <MainContent />
+      </ScrollToTop>
     </Router>
+  );
+};
+
+const MainContent: React.FC = () => {
+  const location = useLocation();
+  const hideNavAndFooter =
+    location.pathname === "/login" || location.pathname === "/signup";
+
+  return (
+    <div>
+      {!hideNavAndFooter && <Navigation />}
+
+      <Routes>
+        <Route path="/home" element={<Homepage />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/arrival" element={<NewArrival />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/details/:id" element={<Details />} />
+        <Route path="/" element={<Homepage />} />
+      </Routes>
+      {!hideNavAndFooter && <Footer />}
+    </div>
   );
 };
 

@@ -7,9 +7,16 @@ import phone from "../assets/phone.png";
 import user from "../assets/user.png";
 import bag from "../assets/bag.png";
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navigation: React.FC = () => {
+  const navigate = useNavigate();
+  const handleLogin = () => {
+    navigate("/login");
+  };
+  const handleCart = () => {
+    navigate("/cart");
+  };
   return (
     <div>
       <div className="nav-container ">
@@ -40,9 +47,13 @@ const Navigation: React.FC = () => {
         </div>
         <div className="rightside ">
           <img src={user} className="user"></img>
-          <h1 className="barlow1 taikhoan">TÀI KHOẢN</h1>
+          <button className="barlow1 taikhoan" onClick={handleLogin}>
+            TÀI KHOẢN
+          </button>
           <img src={bag} className="cart"></img>
-          <h1 className="barlow1 giohang">GIỎ HÀNG</h1>
+          <button className="barlow1 giohang" onClick={handleCart}>
+            GIỎ HÀNG
+          </button>
         </div>
       </div>
     </div>
