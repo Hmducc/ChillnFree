@@ -25,11 +25,11 @@ const Login: React.FC = () => {
           <div className="blur1 ">
             <div className="login ">
               <div className="">
-                <h2 className="login-title login1 text-main ">ĐĂNG NHẬP</h2>
+                <h1 className="login1 login-title text-main">Đăng Nhập</h1>
                 <div className="inside">
                   <form className="login-form">
                     <div className="form-group">
-                      <h1 className="logintext login1 ">Email</h1>
+                      <h1 className=" login1 ">Email</h1>
                       <Input
                         type="email"
                         id="email"
@@ -39,7 +39,7 @@ const Login: React.FC = () => {
                       />
                     </div>
                     <div className="form-group">
-                      <h1 className="logintext login1 ">Mật khẩu</h1>
+                      <h1 className="l login1 ">Mật khẩu</h1>
                       <Input
                         type="password"
                         id="password"
@@ -51,7 +51,7 @@ const Login: React.FC = () => {
 
                     <button
                       type="submit"
-                      className="login-button login1 bg-main"
+                      className="login-button-red login1 bg-main"
                     >
                       Đăng nhập
                     </button>
@@ -59,15 +59,18 @@ const Login: React.FC = () => {
                 </div>
               </div>
               <div className="signup-inlogin">
-                <h1 className="acc login1">
+                <h1 className=" login1">
                   Bạn chưa có tài khoản?
-                  <Link to="/signup" className="signup-link text-main login1 ">
+                  <Link
+                    to="/signup"
+                    className="signup-link-red text-main login1 "
+                  >
                     Đăng kí
                   </Link>
                 </h1>
               </div>
               <div className="signup2">
-                <h1 className="  captcha login1">Quên mật khẩu</h1>
+                <h1 className=" login-help login1">Quên mật khẩu</h1>
               </div>
             </div>
           </div>

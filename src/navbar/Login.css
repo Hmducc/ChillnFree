@@ -123,11 +123,11 @@
   font-size: 15px;
   display: inline-block;
 }
-.signup-link {
+.signup-link-red {
   text-decoration: underline;
   margin-left: 5px;
 }
-.captcha {
+.login-help {
   width: 350px;
   text-align: left;
   margin-top: 10px;
@@ -167,7 +167,7 @@
   font-size: 16px;
 }
 
-.login-button {
+.login-button-red {
   width: 250px;
   height: 50px;
   padding: 10px;
@@ -175,7 +175,7 @@
   color: white;
   border: none;
   border-radius: 32px;
-  font-size: 17px;
+  font-size: 18px;
   cursor: pointer;
 }
 .login-guide {
