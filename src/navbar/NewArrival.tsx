@@ -1,7 +1,7 @@
 import "./NewArrival.css";
 import Item from "./Item";
 
-import { Select, Space, Pagination } from "antd";
+import { Select, Space } from "antd";
 import { items } from "./items";
 
 const handleChange = (value: string) => {
@@ -120,12 +120,6 @@ function NewArrival() {
             ))}
           </div>
         </div>
-        <Pagination
-          align="center"
-          defaultCurrent={1}
-          total={50}
-          className="page"
-        />
       </div>
     </div>
   );
