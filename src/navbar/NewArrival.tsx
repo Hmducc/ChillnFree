@@ -19,7 +19,7 @@ function NewArrival() {
           <div className="window3">3</div>
         </div>
       </div>
-      <div className="product-new ">
+      <div className="arrival-new ">
         <div className="product-newitem ">
           <h1 className="barlow2 product-text1 text-main  ">NEW ARRIVAL</h1>
         </div>
