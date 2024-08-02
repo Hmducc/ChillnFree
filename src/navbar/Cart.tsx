@@ -23,6 +23,7 @@ const Cart: React.FC = () => {
       <div className="cart-heading ">
         <h1 className="cart-heading-name barlow5 text-main ">GIỎ HÀNG</h1>
       </div>
+
       <div className="cart-container">
         <div className="cart-cart  ">
           <div className="cart-column1 ">

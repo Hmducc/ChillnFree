@@ -61,7 +61,6 @@
 .signuptext1 {
   color: #666666;
   font-size: 15px;
-  
 }
 .login {
   width: 459px;
@@ -107,12 +106,11 @@
 
   font-size: 15px;
   display: inline-block;
-
 }
 .signup-link {
   text-decoration: underline;
   margin-left: 5px;
- 
+  font-weight: 600;
 }
 .captcha {
   width: 350px;
@@ -192,7 +190,6 @@
   border-radius: 32px;
   font-size: 17px;
   cursor: pointer;
-  
 }
 
 .extra-links {

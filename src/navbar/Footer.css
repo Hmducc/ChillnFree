@@ -27,8 +27,11 @@
 .barlow4 {
   font-family: barlow4;
 }
-
+.footer-big {
+  border-top: 1px solid #ddd;
+}
 .footer-container {
+  margin-left: 50px;
   display: flex;
   justify-content: space-between;
   height: 250px;
@@ -37,7 +40,7 @@
 
 .footer-column {
   flex: 1;
-  border-top: 1px solid #ddd;
+
   padding: 10px;
 }
 

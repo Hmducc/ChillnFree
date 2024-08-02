@@ -62,7 +62,7 @@
   justify-content: space-between;
 }
 .cart-cart {
-  flex: 1;
+  flex: 2;
   display: grid;
   justify-content: space-between;
   margin-left: 100px;
@@ -187,4 +187,7 @@
   align-items: center;
   justify-content: center;
   display: grid;
+}
+cart-big {
+  margin-left: 100px;
 }
