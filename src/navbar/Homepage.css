@@ -26,10 +26,18 @@
 }
 .new {
   width: 100%;
-  height: 500px;
+  height: 520px;
   position: relative;
+  
 }
 .newitem {
+  width: 210px;
+  height: 42px;
+  margin-left: 57px;
+  position: relative;
+  top: 36px;
+}
+.newitem2 {
   width: 300px;
   height: 42px;
   margin-left: 57px;
@@ -40,13 +48,16 @@
   font-size: 35px;
 }
 .productline {
-  margin-top: 75px;
-  display: flex;
+  margin-top: 35px;
+  display: grid;
   justify-content: center;
+  align-items: center;
 }
+
+
 .product {
   position: relative;
-  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  
   gap: 20px;
   align-items: center;
   justify-content: center;
@@ -55,5 +66,7 @@
 .image1 {
   width: 100%;
   height: 300px;
-  background-image: url(../assets/store1.png);
+  object-fit: cover;
+  position: relative;
+
 }

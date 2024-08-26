@@ -5,10 +5,6 @@
 .barlow1 {
   font-family: barlow1;
 }
-
-.home {
-  height: 1024px;
-}
 .nav-container {
   display: flex;
   justify-content: center;
@@ -20,26 +16,6 @@
   position: fixed;
   z-index: 1000;
   border-bottom: 1px solid #eadbdb;
-}
-
-.tabs-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.tab {
-  cursor: pointer;
-  margin: 35px 50px; /* Adjust this value to increase/decrease the spacing between tabs */
-  font-size: 22px;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 20px;
-  padding: 10px 20px;
-  margin-bottom: 20px;
 }
 .leftside {
   width: 182px;
@@ -82,7 +58,7 @@
 }
 .taikhoan {
   margin-left: 6px;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 .cart {
   height: 14px;
@@ -92,25 +68,24 @@
 .giohang {
   margin-left: 6px;
 }
-.columns-container {
+.nav-logo {
   display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  /* Adjust the gap between columns as needed */
-}
+  justify-content: center;
+  align-items: center;
 
-.column {
-  flex: 1;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 10px;
-  background-color: #f9f9f9;
-}
+  margin-bottom: 20px;
+  height: 100px;
+  width:200px;
 
-.editable-content {
-  min-height: 200px; /* Set a minimum height for the content */
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+
+}
+.nav-middle-text{
+  font-size: 22px;
+}
+.nav-small-logo{
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+
+
 }
