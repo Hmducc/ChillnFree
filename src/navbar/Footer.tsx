@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
             </div>
             <div className="deli2">
               <img src={gift} className="gift md:w-4 md:h-5"></img>
-              <h1 className="COD barlow3 ">
+              <h1 className="COD barlow3 md:text-lg ">
                 Mua hàng để nhận những phần quà hấp dẫn!
               </h1>
             </div>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
             <h1 className="barlow2 name2 md:text-2xl">LIÊN HỆ</h1>
             <div className="deli2 mt-4 md:mt-6">
               <img src={phone} className="gift"></img>
-              <h1 className="COD barlow3 ">032 666 1994</h1>
+              <h1 className="COD barlow3 md:text-lg ">032 666 1994</h1>
             </div>
             <div className="place-footer">
               <img src={place} className="placeicon-footer"></img>
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
             <div className="deli2">
               <img src={facebook} className="facebook"></img>
               <a
-                className="COD barlow3 "
+                className="COD barlow3 md:text-lg "
                 href="https://www.facebook.com/chillnfreeshop"
               >
                 https://www.facebook.com/chillnfreeshop

@@ -1,7 +1,7 @@
-import "./Product.css";
 import Item from "./Item";
+import "./Product.css";
 
-import { Select, Space, Pagination } from "antd";
+import { Pagination, Select, Space } from "antd";
 import { items } from "./items";
 
 const handleChange = (value: string) => {
@@ -10,17 +10,23 @@ const handleChange = (value: string) => {
 
 function Product() {
   return (
-    <div className="product-page">
-      <div className="product-new ">
-        <div className="product-newitem ">
-          <h1 className="barlow2 product-text1 text-main  ">TẤT CẢ SẢN PHẨM</h1>
+    <div className="product-page  ">
+      <div className="product-new md:h-1300 lg:h-2300 ">
+        <div className="product-newitem  ">
+          <h1 className="barlow2 product-text1 lg:text-4xl text-2xl lg:text-left lg:ml-14 text-main   ">
+            TẤT CẢ SẢN PHẨM
+          </h1>
         </div>
+
         <div className=" product-pick">
-          <div className="product-select-container">
-            <Space wrap className="product-select  barlow3">
+          <div className="product-select-container  flex flex-wrap justify-between gap-4">
+            <Space
+              wrap
+              className="product-select  barlow3 w-full lg:w-[calc(50%-16px)]"
+            >
               <Select
                 defaultValue="Lọc giá"
-                className="barlow3 product-choice"
+                className="barlow3 justify-center product-choice"
                 style={{ width: 120 }}
                 onChange={handleChange}
                 options={[
@@ -79,11 +85,26 @@ function Product() {
                   { value: "Áo", label: "Áo" },
                 ]}
               />
-            </Space>
-            <div className="product-arrange-container">
               <Select
                 defaultValue="Sắp xếp theo"
-                className="barlow3 product-arrange"
+                className="barlow3 product-choice"
+                style={{ width: 120 }}
+                onChange={handleChange}
+                options={[
+                  {
+                    value: "Sắp xếp theo",
+                    label: "Sắp xếp theo",
+                    disabled: true,
+                  },
+                  { value: "Giá tăng dần", label: "Giá tăng dần" },
+                  { value: "Giá giảm dần", label: "Giá giảm dần" },
+                ]}
+              />
+            </Space>
+            <div className="product-arrange-container hidden lg:block  ">
+              <Select
+                defaultValue="Sắp xếp theo"
+                className="barlow3 product-arrange bg-red-300 "
                 style={{ width: 120 }}
                 onChange={handleChange}
                 options={[
@@ -99,8 +120,8 @@ function Product() {
             </div>
           </div>
         </div>
-        <div className="product-line ">
-          <div className="product">
+        <div className="productline lg:mt-20 md:mt-12 ipad-pro:mt-5  ">
+          <div className="grid grid-cols-2 justify-center gap-5 lg:gap-20    items-center md:grid-cols-4 product">
             {items.map((item) => (
               <Item
                 key={item.id}
@@ -116,7 +137,7 @@ function Product() {
           align="center"
           defaultCurrent={1}
           total={50}
-          className="page"
+          className="page "
         />
       </div>
     </div>

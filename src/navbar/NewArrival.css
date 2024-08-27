@@ -102,14 +102,14 @@
   align-items: center;
   justify-content: center;
 }
-.product-newitem {
+.product-newitem1 {
   width: 300px;
   height: 42px;
   margin-left: 57px;
   position: relative;
   top: 36px;
 }
-.product-text1 {
+.product-text2 {
   font-size: 35px;
 }
 .product-line {
@@ -135,7 +135,7 @@
 .product-line1 {
   margin-top: 45px;
 }
-.product-select {
+.product-select1 {
   margin-top: 68px;
   margin-left: 60px;
   display: flex;
