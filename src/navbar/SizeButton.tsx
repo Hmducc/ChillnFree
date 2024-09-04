@@ -8,11 +8,11 @@ const SizeButton: React.FC = () => {
   const sizes = ["S", "M", "L", "XL", "2XL"];
 
   return (
-    <div className="size-selector">
+    <div className="size-selector md:flex">
       {sizes.map((size) => (
         <button
           key={size}
-          className={`size-button barlow4 ${
+          className={`size-button md:w-24 md:h-14 lg:w-73 lg:h-12  barlow4 ${
             selectedSize === size ? "selected" : ""
           }`}
           onClick={() => setSelectedSize(size)}

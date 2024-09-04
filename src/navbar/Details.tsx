@@ -24,9 +24,9 @@ const Details: React.FC = () => {
   return (
     <div>
       <div className="details-container  ">
-        <div className="column1 bg-red-300 hidden lg:block ">
-          <div className="details-left bg-green-300 ">
-            <div className="details-small-image bg-blue-300">
+        <div className="column1  hidden lg:block ">
+          <div className="details-left  ">
+            <div className="details-small-image ">
               <div className="details-boongminz">
                 <img src={boongminz1} className="details-boongminz1" />
                 <img src={boongminz2} className="details-boongminz1-edit" />
@@ -43,7 +43,7 @@ const Details: React.FC = () => {
               />
             </div>
           </div>
-          <div className="details-items-text bg-slate-500 ">
+          <div className="details-items-text  ">
             <h1 className="details-topic text-main barlow3">
               CHI TIẾT SẢN PHẨM
             </h1>
@@ -70,42 +70,51 @@ const Details: React.FC = () => {
             </ul>
           </div>
         </div>
-        <div className="column2 bg-green-300 lg:w-full lg:h-full  ">
-          <div className="details-info bg-blue-300 lg:ml-22 lg:mt-5">
+        <div className="column2  lg:w-full lg:h-full  ">
+          <div className="details-info  lg:ml-22 lg:mt-5">
             <h2 className="details-name lg:w-400 md:w-700 lg:text-40 barlow5 text-main ">
               {item.name}
             </h2>
             <p className="details-price lg:text-2xl barlow3 ">{item.price}</p>
 
-            <div className=" items-center justify-center bg-green-300   lg:hidden ">
+            <div className=" items-center justify-center flex   lg:hidden ">
               <img
                 src={item.image}
                 alt={item.name}
-                className="details-image1  lg:hidden bg-red-300"
+                className="details-image1 md:w-500 md:h-500  lg:hidden "
               />
             </div>
 
-            <div className="details-size-text-guide-mobile bg-yellow-300 lg:mt-9 lg:hidden justify-center items-center">
-              <img src={boongminz1} className="details-boongminz2 " />
+            <div className="details-size-text-guide-mobile  lg:mt-9 lg:hidden justify-center items-center">
+              <img
+                src={boongminz1}
+                className="details-boongminz2 md:h-36 md:w-36 "
+              />
               <img
                 src={boongminz2}
-                className="details-boongminz1-edit-mobile"
+                className="details-boongminz1-edit-mobile md:h-36 md:w-36"
               />
               <img
                 src={boongminz1}
-                className="details-boongminz1-edit-mobile"
+                className="details-boongminz1-edit-mobile md:h-36 md:w-36"
               />
               <img
                 src={boongminz2}
-                className="details-boongminz1-edit-mobile"
+                className="details-boongminz1-edit-mobile md:h-36 md:w-36"
               />
             </div>
 
-            <div className="details-size-text-guide lg:w-400 lg:mt-9 bg-pink-300">
-              <p className="details-size-text barlow4"> Chọn size</p>
-              <p className="details-size-guide barlow4"> Hướng dẫn chọn size</p>
+            <div className="details-size-text-guide lg:w-400 lg:mt-9 ">
+              <p className="details-size-text md:text-2xl lg:text-xl barlow4">
+                {" "}
+                Chọn size
+              </p>
+              <p className="details-size-guide barlow4 md:text-2xl lg:text-xl ">
+                {" "}
+                Hướng dẫn chọn size
+              </p>
             </div>
-            <div className="details-button">
+            <div className="details-button md:flex lg:block justify-center items-center">
               <SizeButton></SizeButton>
             </div>
             <div>
@@ -121,7 +130,7 @@ const Details: React.FC = () => {
                 MUA NGAY
               </button>
             </div>
-            <div className="details-items-text-mobile lg:hidden  ">
+            <div className="details-items-text-mobile lg:hidden md:ml-10  ">
               <h1 className="details-topic-mobile text-main barlow3">
                 CHI TIẾT SẢN PHẨM
               </h1>

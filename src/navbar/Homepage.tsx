@@ -17,7 +17,7 @@ const Homepage: React.FC = () => {
         ></img>
       </div>
       <div className="new  lg:w-full lg:h-500 md:h-72  ">
-        <div className=" ml-6 w-36 relative md:w-44  top-5 lg:w-52 lg:mt-5 lg:h-10 lg:ml-14    ">
+        <div className=" ml-6 w-36 relative md:w-44  top-5 lg:w-56 lg:mt-5 lg:h-10 lg:ml-14    ">
           <h1 className="barlow2 text-2xl  lg:text-4xl  text-main  ">
             SẢN PHẨM MỚI
           </h1>
@@ -40,7 +40,7 @@ const Homepage: React.FC = () => {
         <img src={store1} className="image1 h-40 lg:h-75 "></img>
       </div>
       <div className="new lg:w-full lg:h-500 md:h-72">
-        <div className="ml-6 w-52 relative md:w-64  top-5 lg:w-75 lg:mt-5 lg:h-10 lg:ml-14 ">
+        <div className="ml-6 w-52 relative md:w-64  top-5 lg:w-96 lg:mt-5 lg:h-10 lg:ml-14 ">
           <h1 className="barlow2 text-2xl  lg:text-4xl text-main  ">
             SẢN PHẨM BÁN CHẠY
           </h1>
