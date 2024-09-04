@@ -63,6 +63,7 @@
   flex: 1;
   padding: 10px;
   box-sizing: border-box;
+  width: 100px;
 }
 
 .details-picture {
@@ -83,18 +84,24 @@
   height: 550px;
   float: right;
   object-fit: cover;
+  margin-bottom: 10px;
+}
+.details-image1 {
+  border-radius: 8px;
+  width: 368px;
+  height: 368px;
+  float: right;
+  object-fit: cover;
 }
 
 .details-info {
   text-align: left;
   width: 100%;
-  margin-left: 86px;
-  margin-top: 20px;
 }
 
 .details-name {
-  font-size: 40px;
-  width: 400px;
+  font-size: 30px;
+  width: 300px;
   margin-bottom: 10px;
 }
 
@@ -122,6 +129,12 @@
   border-radius: 8px;
   margin-left: 75px;
 }
+.details-boongminz2 {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 .details-boongminz1-edit {
   width: 90px;
   height: 90px;
@@ -129,6 +142,13 @@
   border-radius: 8px;
   margin-left: 75px;
   margin-top: 15px;
+}
+.details-boongminz1-edit-mobile {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: 5px;
 }
 .details-size-text {
   font-size: 20px;
@@ -143,15 +163,22 @@
 }
 .details-size-text-guide {
   display: flex;
-  width: 400px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
+}
+.details-size-text-guide-mobile {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 .details-button {
   margin-top: 20px;
 }
 .details-cart-button {
-  width: 400px;
+  width: 100%;
   height: 62px;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -159,7 +186,7 @@
   margin-top: 20px;
 }
 .details-buy-button {
-  width: 400px;
+  width: 100%;
   height: 62px;
   border: 1px solid #000;
   border-radius: 10px;
@@ -171,23 +198,43 @@
   margin-top: 20px;
   width: 700px;
 }
+.details-items-text-mobile {
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 350Ở bu bupx;
+}
 .details-topic {
   font-size: 26px;
+  text-decoration: underline;
+}
+.details-topic-mobile {
+  font-size: 22px;
   text-decoration: underline;
 }
 .VCS {
   font-size: 20px;
   margin-top: 10px;
 }
+.VCS-mobile {
+  font-size: 18px;
+  margin-top: 10px;
+}
 .details-shirt-details {
   font-size: 20px;
+}
+.details-shirt-details-mobile {
+  font-size: 18px;
 }
 .details-shirt-details-text {
   margin-top: 30px;
 }
-.details-other-item-heading {
-  font-size: 40px;
+.details-shirt-details-text-mobile {
+  margin-top: 15px;
 }
+.details-other-item-heading {
+  font-size: 25px;
+}
+
 .details-other-item {
   height: 520px;
   margin-top: 20px;
@@ -206,4 +253,11 @@
   align-items: center;
   justify-content: center;
   display: grid;
+}
+.image-medium {
+  width: 100%;
+  background-color: aqua;
+  height: 468px;
+  justify-content: center;
+  align-items: center;
 }

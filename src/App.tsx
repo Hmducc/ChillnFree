@@ -5,17 +5,17 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
-import Contact from "./navbar/Contact";
-import Navigation from "./navbar/Navigation";
-import Product from "./navbar/Product";
-import Homepage from "./navbar/Homepage";
-import NewArrival from "./navbar/NewArrival";
-import Footer from "./navbar/Footer";
-import Details from "./navbar/Details";
-import ScrollToTop from "./ScrollToTop";
 import Cart from "./navbar/Cart";
+import Contact from "./navbar/Contact";
+import Details from "./navbar/Details";
+import Footer from "./navbar/Footer";
+import Homepage from "./navbar/Homepage";
 import Login from "./navbar/Login";
+import Navigation from "./navbar/Navigation";
+import NewArrival from "./navbar/NewArrival";
+import Product from "./navbar/Product";
 import SignUp from "./navbar/SignUp";
+import ScrollToTop from "./ScrollToTop";
 
 const App: React.FC = () => {
   return (

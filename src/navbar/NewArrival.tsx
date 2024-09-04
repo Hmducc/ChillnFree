@@ -1,5 +1,5 @@
-import "./NewArrival.css";
 import Item from "./Item";
+import "./NewArrival.css";
 
 import { Select, Space } from "antd";
 import { items } from "./items";
@@ -20,12 +20,12 @@ function NewArrival() {
         </div>
       </div>
       <div className="arrival-new ">
-        <div className="product-newitem ">
-          <h1 className="barlow2 product-text1 text-main  ">NEW ARRIVAL</h1>
+        <div className="product-newitem1 ">
+          <h1 className="barlow2 product-text2 text-main  ">NEW ARRIVAL</h1>
         </div>
         <div className=" product-pick">
           <div className="product-select-container">
-            <Space wrap className="product-select  barlow3">
+            <Space wrap className="product-select1  barlow3">
               <Select
                 defaultValue="Lọc giá"
                 className="barlow3 product-choice"
