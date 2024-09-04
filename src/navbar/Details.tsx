@@ -23,7 +23,7 @@ const Details: React.FC = () => {
 
   return (
     <div>
-      <div className="details-container  ">
+      <div className="details-container ">
         <div className="column1  hidden lg:block ">
           <div className="details-left  ">
             <div className="details-small-image ">
@@ -160,7 +160,7 @@ const Details: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="details-other-item">
+      <div className="details-other-item md:h-80 lg:h-500 ">
         <h1 className="barlow3 details-other-item-heading lg:text-40">
           CÁC SẢN PHẨM KHÁC
         </h1>
