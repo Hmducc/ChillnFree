@@ -22,7 +22,7 @@ const Homepage: React.FC = () => {
             SẢN PHẨM MỚI
           </h1>
         </div>
-        <div className="productline lg:mt-20 md:mt-12 ipad-pro:mt-5  ">
+        <div className="productline lg:mt-24 md:mt-9 ipad-pro:mt-5  ">
           <div className="grid grid-cols-2 justify-center gap-5 lg:gap-20    items-center md:grid-cols-4 product">
             {displayedItems.map((item) => (
               <Item
@@ -45,7 +45,7 @@ const Homepage: React.FC = () => {
             SẢN PHẨM BÁN CHẠY
           </h1>
         </div>
-        <div className="productline lg:mt-20 ipad-pro:mt-5 md:mt-12">
+        <div className="productline  lg:mt-24 ipad-pro:mt-5 md:mt-9">
           <div className="grid grid-cols-2 justify-center gap-5 lg:gap-20     items-center md:grid-cols-4 product">
             {displayedItems2.map((item) => (
               <Item
